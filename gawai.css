@@ -1,0 +1,133 @@
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rekomendasi {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.card {
+    text-align: center;
+    margin-top: 50px; /* Atur jarak dari atas */
+    border-radius: 20px; /* Menggunakan sudut yang lebih lembut */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan lembut */
+  }
+  .card img {
+    max-width: 100%; /* Maksimum lebar gambar agar sesuai dengan lebar card */
+    border-radius: 20px 20px 0 0; /* Memberikan sudut yang lebih lembut hanya pada sudut atas */
+  }
+  .card-body-image {
+    padding: 20px; /* Padding untuk konten dalam card */
+  }
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }                                                                          
+                                               
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+  }
+  
+  .footer-left {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .footer-left h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .footer-left form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .footer-left input[type="email"] {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left button[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #e64c4c;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-right {
+    flex: 1;
+  }
+  
+  .footer-right h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-right ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .footer-right li {
+    list-style: none;
+  }
+  
+  .footer-right a {
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .footer-right a:hover {
+    transform: translateY(-5px);
+  }
+  
+  .copyright {
+    font-size: 18px;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-left,
+    .footer-right {
+      flex: 1 0 100%;
+      margin: 0;
+    }
+  
+    .footer-left form {
+      width: 80%;
+    }
+  }
+
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

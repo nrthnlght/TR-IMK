@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="gawai.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -41,6 +42,50 @@
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container col-sm-6 mb-3 mb-sm-0">        
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">link1</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">link2</button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">link3</button>
+              </li>
+            </ul>
+          </div>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+                </div>
+            </div>
+            </div>
         </div>
       </nav>
 
@@ -82,7 +127,154 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+      <!--kolom promo-->
+      <div class="row">
+        <div class="col-sm-4 mb-2 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--kolom kelebihan-->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="card">
+              <div class="card-body-image">
+                This is some text within a card body.
+              </div>
+              <div>
+                <img src="https://i.pinimg.com/474x/6d/9a/6f/6d9a6ffb8a6351303239151d3b4fd959.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="card">
+              <div class="card-body-image">
+                This is some text within a card body.
+              </div>
+              <div>
+                <img src="https://i.pinimg.com/474x/6d/9a/6f/6d9a6ffb8a6351303239151d3b4fd959.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--rekomendasi-->
+      <section class="rekomendasi">
+        <div class="row">
+          <div class="col-sm-3 mb-1 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+  
+      </section>
+      
+      <!--colom diskon-->
+      <div class="container">
+        <div class="row">
+          <div class="col-9">.col-9</div>
+          <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+          <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-left">
+            <h2>Join our newsletter!</h2>
+            <p>Sign up for our newsletter to get the latest updates, promotions, and more.</p>
+            <form action="#">
+              <input type="email" placeholder="Enter your email">
+              <button type="submit">Sign Up</button>
+            </form>
+          </div>
+          <div class="footer-right">
+            <h2>Follow us on social media</h2>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            </ul>
+            <div class="copyright">
+              <p>&copy; 2023 My Company. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
