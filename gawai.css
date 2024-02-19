@@ -1,3 +1,7 @@
+.navbar-custom {
+  background-color: black; /* Ubah latar belakang navbar menjadi hitam */
+  color: white; /* Ubah warna teks menjadi putih */
+}
 .row {
     margin-left: 10px;
     margin-right: 10px;
@@ -5,6 +9,17 @@
 .rekomendasi {
     margin-right: 50px;
     margin-left: 50px;
+}
+.product {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 30px;
+  justify-content: center;
+}
+.product img{
+  width: 100%;
 }
 .card {
     text-align: center;
