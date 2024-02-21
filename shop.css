@@ -1,0 +1,83 @@
+/* CSS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #fff;
+  }
+  
+  .navbar-brand,
+  .navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0 5px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #555;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+  }
+  
+  .form-control {
+    margin-left: 10px;
+  }
+  
+  .btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .btn-outline-success:hover {
+    color: #333;
+    background-color: #fff;
+  }
+  .kolom {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-3{
+    margin-left: 70px;
+    margin-right: 7cqw;
+}
+.row {
+    display: flex;
+}
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .carousel-item {
+    flex: 0 0 12.5%; /* Setiap item mengambil 12.5% lebar dari parent (8 item dalam satu baris) */
+    max-width: 12.5%; /* Batasi lebar maksimum setiap item */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Pastikan gambar mengisi seluruh lebar item */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan agar tidak terdistorsi */
+  }
+  

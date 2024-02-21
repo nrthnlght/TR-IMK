@@ -1,6 +1,7 @@
-.navbar-custom {
-  background-color: black; /* Ubah latar belakang navbar menjadi hitam */
-  color: white; /* Ubah warna teks menjadi putih */
+.carousel-img {
+  display: inline-flex;
+  width: 100%;
+  height: 600px;
 }
 .row {
     margin-left: 10px;
@@ -10,17 +11,53 @@
     margin-right: 50px;
     margin-left: 50px;
 }
-.product {
-  display: flex;
+/* Gaya untuk container diskon */
+.diskon {
+  max-width: 80%; /* Maksimum lebar container */
+  margin: 0 auto; /* Pusatkan container di tengah halaman */
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 60px;
-  margin-right: 30px;
-  justify-content: center;
 }
-.product img{
-  width: 100%;
+
+/* Gaya untuk gambar diskon */
+.diskon img {
+  display: block; /* Jadikan gambar sebagai blok untuk menghindari celah vertikal */
+  width: 100%; /* Gambar mengisi lebar container */
+  height: auto; /* Tinggi disesuaikan agar proporsional */
 }
+
+/* Container */
+.container {
+  max-width: 1200px; /* Maksimum lebar container */
+  margin: 0 auto; /* Pusatkan container di tengah halaman */
+}
+
+/* Gaya untuk produk yang ditampilkan */
+.featured-product {
+  display: flex; /* Gunakan tata letak flexbox */
+  justify-content: center; /* Pusatkan item secara horizontal */
+  gap: 20px; /* Jarak antara item */
+}
+.kolom {
+  flex: 1; /* Biarkan setiap kolom mengambil ruang yang sama */
+}
+
+/* Gaya untuk setiap kolom produk */
+.kolom img {
+  width: 100%; /* Gambar mengisi lebar kolom */
+  height: auto; /* Tinggi disesuaikan agar proporsional */
+  border-radius: 10px; /* Sudut bulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+}
+
+/* Gaya untuk gambar produk */
+.kolom-product img {
+  width: 100%; /* Gambar mengisi lebar kolom */
+  height: auto; /* Tinggi disesuaikan agar proporsional */
+  border-radius: 10px; /* Sudut bulat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+}
+
+
 .card {
     text-align: center;
     margin-top: 50px; /* Atur jarak dari atas */
@@ -34,6 +71,11 @@
   .card-body-image {
     padding: 20px; /* Padding untuk konten dalam card */
   }
+.text {
+  margin-left: 70px;
+  margin-right: 7cqw;
+}
+
 .footer {
     background-color: #333;
     color: #fff;
