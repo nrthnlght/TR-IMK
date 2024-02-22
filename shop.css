@@ -2,15 +2,19 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
   }
   
+  header {
+    background-color: #fff;
+  }
   .navbar {
     background-color: #fff;
   }
   
   .navbar-brand,
   .navbar-nav {
-    flex: 1;
+    flex: 0;
     display: flex;
     justify-content: center;
   }
@@ -32,12 +36,19 @@ body {
   }
   
   .navbar-collapse {
-    justify-content: center;
+    justify-content: left;
   }
-  
-  .form-control {
-    margin-left: 10px;
-  }
+/* Styling untuk popup */
+.popup {
+  display: -moz-popup;
+  margin-top: 20px;
+}
+
+/* Hover effect untuk tombol close */
+.close-btn:hover {
+  color: red; /* Ubah warna menjadi merah saat dihover */
+}
+
   
   .btn-outline-success {
     color: #fff;
@@ -48,6 +59,10 @@ body {
     color: #333;
     background-color: #fff;
   }
+
+.biru-text{
+  color: blue;
+}
   .kolom {
     display: flex;
     flex-direction: column;
@@ -57,27 +72,155 @@ body {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 
-.text-3{
+.text-2{
     margin-left: 70px;
-    margin-right: 7cqw;
+    margin-top: 10px;
+    justify-content: left;
 }
-.row {
-    display: flex;
+.text-3 {
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-right: 70px;
+  justify-content: left;
 }
-.carousel {
-    display: flex;
-    flex-wrap: wrap;
+#carouselExampleControls .carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#carouselExampleControls .row .col {
+  padding: 0;
+}
+
+#carouselExampleControls .row .col div {
+  height: 200px; /* atur tinggi gambar */
+  padding: 10px; /* atur jarak gambar */
+  overflow: hidden;
+}
+
+#carouselExampleControls .row .col div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container{
+  margin-left: 70px;
+}
+.barang {
+  width: 1200px;
+  margin-right: 0ch;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}                                                                          
+                                             
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.footer-left h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.footer-left form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-left input[type="email"] {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-left button[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #e64c4c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-right h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-right ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-right li {
+  list-style: none;
+}
+
+.footer-right a {
+  color: #fff;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-right a:hover {
+  transform: translateY(-5px);
+}
+
+.copyright {
+  font-size: 18px;
+  margin-top: 30px;
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .carousel-item {
-    flex: 0 0 12.5%; /* Setiap item mengambil 12.5% lebar dari parent (8 item dalam satu baris) */
-    max-width: 12.5%; /* Batasi lebar maksimum setiap item */
+
+  .footer-left,
+  .footer-right {
+    flex: 1 0 100%;
+    margin: 0;
   }
-  
-  .carousel-item img {
-    width: 100%; /* Pastikan gambar mengisi seluruh lebar item */
-    height: auto; /* Biarkan tinggi gambar menyesuaikan agar tidak terdistorsi */
+
+  .footer-left form {
+    width: 80%;
   }
+}
+
+
   
