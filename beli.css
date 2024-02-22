@@ -1,0 +1,171 @@
+header {
+    background-color: #000;
+  }
+.navbar {
+    background-color: #000;
+    justify-content: center;
+  }
+  
+  .navbar-brand,
+  .navbar-nav {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0 5px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #0a0909;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-collapse {
+    justify-content: left;
+  }
+  .nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background-color: #000;
+    background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/apple.svg") center no-repeat;
+  }
+  
+  .nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/search.svg") center no-repeat;
+  }
+  
+  .nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/bag.svg") center no-repeat;
+  }
+  .row img{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .text {
+    margin-left: 70px;
+    margin-right: 7cqw;
+  }
+  
+  .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 50px 0;
+      display: flex;
+      justify-content: center;
+    }                                                                          
+                                                 
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      justify-content: space-between;
+    }
+    
+    .footer-left {
+      flex: 1;
+      margin-right: 50px;
+    }
+    
+    .footer-left h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    
+    .footer-left p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+    
+    .footer-left form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    .footer-left input[type="email"] {
+      border: none;
+      border-radius: 5px;
+      padding: 15px;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    
+    .footer-left button[type="submit"] {
+      border: none;
+      border-radius: 5px;
+      padding: 15px;
+      font-size: 18px;
+      background-color: #e64c4c;
+      color: #fff;
+      cursor: pointer;
+    }
+    
+    .footer-right {
+      flex: 1;
+    }
+    
+    .footer-right h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    
+    .footer-right ul {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    
+    .footer-right li {
+      list-style: none;
+    }
+    
+    .footer-right a {
+      color: #fff;
+      font-size: 24px;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .footer-right a:hover {
+      transform: translateY(-5px);
+    }
+    
+    .copyright {
+      font-size: 18px;
+      margin-top: 30px;
+      border-top: 1px solid #fff;
+      padding-top: 20px;
+    }
+    
+    @media (max-width: 768px) {
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .footer-left,
+      .footer-right {
+        flex: 1 0 100%;
+        margin: 0;
+      }
+    
+      .footer-left form {
+        width: 80%;
+      }
+    }
+  
+  .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

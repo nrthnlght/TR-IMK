@@ -38,6 +38,24 @@ body {
   .navbar-collapse {
     justify-content: left;
   }
+  .nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background-color: #000;
+    background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/apple.svg") center no-repeat;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/search.svg") center no-repeat;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/bag.svg") center no-repeat;
+}
 /* Styling untuk popup */
 .popup {
   display: -moz-popup;

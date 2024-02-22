@@ -1,3 +1,51 @@
+header {
+  background-color: #000;
+}
+.navbar {
+  background-color: #000;
+  justify-content: center;
+}
+
+.navbar-brand,
+.navbar-nav {
+  flex: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 5px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #0a0909;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-collapse {
+  justify-content: left;
+}
+.nav-link-apple{
+  width: 1.6rem;
+  height: 4.4rem;
+  background-color: #000;
+  background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/apple.svg") center no-repeat;
+}
+
+.nav-link-bag{
+  width: 1.4rem;
+  height: 4.4rem;
+  background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/search.svg") center no-repeat;
+}
+
+.nav-link-search{
+  width: 1.6rem;
+  height: 4.4rem;
+  background: url("https://raw.githubusercontent.com/jlop007/apple-replica-starter-files/f32121c360aa1ffce13f05690a8af5a6e071848d/apple-replica/images/icons/bag.svg") center no-repeat;
+}
 .carousel-img {
   display: inline-flex;
   width: 100%;
